@@ -1,0 +1,59 @@
+
+ .nav a{
+    display:inline-flex;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    padding: 1vw;
+     float: left;
+    font-size: 3vh;
+    }
+    nav{
+    display: flex;
+     justify-content: center;
+    }
+    
+     .icons{
+    Display: flex;
+    Justify-content: center;
+    }
+    
+    .icons a{
+    text-decoration: none; 
+    padding:10px;
+    color: black;
+    }
+    .navb{
+    display: flex; 
+    justify-content: center;
+    }
+    
+    .navb a{
+        display: inline-flex; 
+        padding: 10px; 
+        text-decoration: none; 
+        color: black;
+        }
+    
+    .aish a{
+        text-decoration: none;
+        Color: black;
+        }
+        @media screen and (max-width:480px) {
+           h1{
+            font-size: 3vh;
+           }
+            .nav a{
+                font-size: 2vh;
+            }
+            .navb a{
+                font-size: 2vh;
+            }
+            .aish{
+                font-size: 1.5vh;
+            }
+            p{
+                font-size: 2vh;
+             }
+        } 
+     
