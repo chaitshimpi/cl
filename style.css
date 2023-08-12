@@ -12,6 +12,7 @@
     display: flex;
      justify-content: center;
     }
+  
     
      .icons{
     Display: flex;
@@ -55,5 +56,18 @@
             p{
                 font-size: 2vh;
              }
+             #im img{
+                height: 300px;
+            }
+            iframe{
+               width: 90%;
+                height: 150px;
+            }
         } 
+        @media screen and (max-width:480px) {
+            iframe{
+                width: 90%;
+                height: 30%;
+            }
+        }
      
