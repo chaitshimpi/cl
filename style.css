@@ -40,6 +40,8 @@
         text-decoration: none;
         Color: black;
         }
+
+        
         @media screen and (max-width:600px) {
            h1{
             font-size: 3vh;
@@ -63,17 +65,29 @@
                width: 90%;
                 height: 30%;
             }
+            h2{
+                font-size: 3vh;
+            }
         } 
         @media screen and (max-width:481px) {
             #im img{
-                height: 250px;
+                height: 220px;
             }
             iframe{
                 width: 90%;
-                height: 30%;
+                height: 130px;
             }
             p{
-                font-size: 1vh;
+                font-size: 1.5vh;
+             }
+             h2{
+                font-size: 2.3vh;
+             }
+             .navb li a {
+                font-size: 1.7vh;
+             }
+             .aish{
+                font-size: 1.5vh;
              }
 
         }
